@@ -19,12 +19,12 @@ Certifique-se de que tem o **XAMPP** Ligue os serviços Apache e MySQL instalado
 **3. Configurar o Ambiente e a Base de Dados**
 - Crie um banco de dados no MySQL via PhpMyAdmin chamada **loja_visibilidade_api**
 - copie o arquivo **.env.example** e mude o tipo de DB_CONNECTION para **mysql**.
-- Agora retire o comentario de todas essas linhas: 
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=laravel
-# DB_USERNAME=root
-# DB_PASSWORD=
+** Agora retire o comentario de todas essas linhas: ** 
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=laravel
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 **Gere uma chave e crie as tabelas**
 - php artisan key:generate
