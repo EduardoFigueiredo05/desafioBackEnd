@@ -3,8 +3,8 @@
 Esta é a API desenvolvida em Laravel para o desafio técnico de gestão de produtos. O projeto foi construído para ser executado de forma nativa, sem a necessidade de contentores (Docker/Sail).
 
 ## Tecnologias Utilizadas
-- PHP 8.x
-- Laravel 11.x
+- PHP 8.2.12
+- Laravel 11.1
 - MySQL (via XAMPP)
 - Composer
 
